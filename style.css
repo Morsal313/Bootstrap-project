@@ -1,0 +1,103 @@
+* {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.homepage {
+   background-color: rgb(234, 216, 170);
+   text-align: center;
+}
+
+.homepage h3 h4 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 10px 5px;
+
+
+}
+
+.homepage p {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 10px 1rem;
+
+}
+
+.homepage img {
+   border-radius: 100%;
+   box-shadow: 0 0 100px green;
+
+
+
+}
+
+.main p {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+body nav {}
+
+.navbar-brand {
+   box-shadow: 90px
+}
+
+#img1 {
+   box-shadow: 0 0 100px black;
+}
+
+.section img {
+   box-shadow: 0 0 90px gray;
+   transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+
+#home img {
+   box-shadow: 0 0 80px rgb(178, 139, 139);
+   animation-iteration-count: 1;
+
+
+}
+
+.container-fluid>img {
+   box-shadow: 0 0 80px rgb(178, 139, 139);
+
+
+}
+
+.img-fade:hover {
+   transition: transform 0.4s ease;
+
+}
+
+/* .img{
+   opacity:2;
+   transform: rotate(10deg) ; */
+
+
+
+
+
+@keyframes slider {
+   0% {
+      transform: rotate(0deg);   }
+
+   100% {
+      transform: rotate(200deg);
+
+   }
+
+}
+
+.img{
+   animation: slider 2s ease-in-out infinite;
+}
+.fade-img{
+   opacity: 0.7;
+   transition: opacity 0.5s linear;
+}
+.fade-img:hover{
+   opacity: 1;
+   
+   
+  
+ 
+}

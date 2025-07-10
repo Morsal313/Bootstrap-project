@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is about digital Afghanistan in the Future.">
+    <meta name="author" content="This site is created by Morsal Ahmadi">
+    <title>CodeHerat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#">CodeHerat</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" active href="#home">HomePage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" active href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" active href="#workshops">Our Workshops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" active href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="container-fluid  pb-5 bg-warning text-center d-inline-block">
+        <h3>CodeHerat</h3>
+        <h4>Empowering Afghan Girls Through STEM</h4>
+        <img src="download.jpeg" class="rounded-circle shadow-lg  img  carousel"  alt="Coding imgage" width="160px"
+            height="130px">
+    </section>
+    <main id="about" class="container-fluid bg-success  pb-2 pt-4">
+        <h3 class="text-center ">About Us</h3>
+        <p>CodeHerat is a youth-led initiative based in Herat,Afghanistan,focused on empowering Afghan girls through
+            STEM(Science,Tenchnology,Engineering,and Mathmatics).Our mission is to provide grils with access to quality
+            educationin coding,web development,and digital literacy.We believe that that by equopping girls with
+            21st-century skills,we can build a brighter,more inclusivefuture for Afghanistan.Our workshops are designed
+            to be practical,interactive,and inspiring-helping girls gain confidence,creativity,and problem-solving
+            abilities.</p>
+    </main>
+    <div id="workshops" class="container-fluid bg-warning  pb-2 pt-4">
+        <h3 class="text-center"> Our Workshops</h3>
+        <div class="row me-2 pb-2 pt-4 text-center " style="align-items: center; justify-content: center; gap: 20px;">
+            <div class="card bg-success col-sm-6 " style="width: 18rem;">
+                <img src="images (1).jpeg" class="card-img-top rounded-3  fade-img" alt="This is an image.">
+                <div class="card-body">
+                    <h5 class="card-title text-body-secondary">Building Future Coders</h5>
+                    <p class="card-text">At CodeHerat workshops,girls learn coding through real-world projects,gaining
+                        skills that help them shape the future with confidence.</p>
+                    <a href="#" class="btn btn-warning shadow-lg spinner-border text-muted"></a>
+                </div>
+            </div>
+            <div class="card bg-success col-sm-6" style="width: 18rem;">
+                <img src="MicrosoftTeams--image.png" class="card-img-top rounded-3 fade-img" alt="This is an image.">
+                <div class="card-body">
+                    <h5 class="card-title text-body-secondary">Creative Learning Space</h5>
+                    <p class="card-text">We create a safe and engaging space where girls explore web development ,
+                        collaborate on ideas,and turn their creativity into code.</p>
+                    <a href="#" class="btn btn-warning shadow-lg spinner-border text-muted"></a>
+                </div>
+            </div>
+            <div class="card bg-success col-sm-6" style="width: 18rem;">
+                <img src="960.avif" class="card-img-top rounded-3 fade-img" alt="This is an image.">
+                <div class="card-body">
+                    <h5 class="card-title text-body-secondary">Step-by-step Coding</h5>
+                    <p class="card-text">From the basics of HTML to building interactive websites,our workshops guide
+                        girls step by step toward becoming young developers..</p>
+                    <a href="#" class="btn btn-warning shadow-lg spinner-border text-muted"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <form id="contact" class="container-fluid bg-success">
+        <h3 class="text-center">Contact</h3>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter your full name" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter your email address" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <input type="text" class="form-control" id="message" placeholder="Message">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-warning btn-md mb-3">Submit</button>
+        <div class="text-end p-6">
+            <a href="https://www.linkedin.com/in/mursal-ahmadi-345a762b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bq3dRjgauR8ecUQYr9qOdjA%3D%3D"
+                target="_blank"><i class="fab fa-linkedin fs-3 "></i></a>
+            <a href="https://x.com/morsal_i8612" target="_blank"><i class="fab fa-twitter te fs-3"></i></a>
+            <a href="https://t.me/ahmadimursal490" class="text-end" target="_blank"><i
+                    class="fab fa-telegram  fs-3"></i></a>
+        </div>
+    </form>
+    <footer class="bg-warning text-center  pb-2 pt-4">
+        <p>@ 2025 CodeHerat . All rights reserved.</p>
+    </footer>
+</body>
+</html>
